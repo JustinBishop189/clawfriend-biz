@@ -1,0 +1,8 @@
+# Internal only — do not share outside (per guidebook)
+GUIDEBOOK - FOR TEAM SELLING CLAWFRIEND.docx.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
