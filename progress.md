@@ -11,7 +11,7 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 | Weight | Deliverable | Status | Notes |
 |--------|-------------|--------|-------|
 | **25%** | [Competitive Landscape](./competitive-landscape.md) | [x] | 5 competitors, table, analysis, positioning |
-| **25%** | [Skill Research](./skill-research.md) | [ ] | 5–10 skills, demand evidence, visibility/monetization |
+| **25%** | [Skill Research](./skill-research.md) | [x] | 8 skills, ClawHub demand, crypto section, sources |
 | **40%** | [Distribution Plan](./distribution-plan.md) | [ ] | 3–5 channels, $10K budget, action plan, metrics |
 | **10%** | Presentation & Q&A | [ ] | 15–20 min present + Q&A with judges |
 
@@ -32,11 +32,11 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 
 ### Deliverable 2: Skill Research (25%)
 
-- [ ] List 5–10 skills the Skill Market should have
-- [ ] Per skill: name, target user, problem, current alternative
-- [ ] Per skill: how skill solves it, visibility & monetization (public/private)
-- [ ] Per skill: demand evidence (search volume, forums, tools, on-chain) with sources
-- [ ] Source summary (Google Trends, Reddit, Twitter, etc.)
+- [x] List 5–10 skills the Skill Market should have
+- [x] Per skill: name, target user, problem, current alternative
+- [x] Per skill: how skill solves it, visibility & monetization (public/private)
+- [x] Per skill: demand evidence (search volume, forums, tools, on-chain) with sources
+- [x] Source summary (Google Trends, Reddit, Twitter, etc.)
 
 ### Deliverable 3: Distribution Plan (40%)
 
@@ -65,8 +65,8 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 
 | Day | Morning | Afternoon | Daily goal |
 |-----|---------|-----------|------------|
-| **Day 3** | [ ] Read guidebook; start competitor research; list competitors | [ ] Analyze each competitor; start skill brainstorm | 5–10 competitors with links & description |
-| **Day 4** | [ ] Finish Skill Research; find demand evidence; write pricing & alternatives | [ ] Start Distribution Plan; list channels; write detailed action plan | Skill Research done; Distribution Plan v1 |
+| **Day 3** | [x] Read guidebook; start competitor research; list competitors | [x] Analyze each competitor; start skill brainstorm | 5–10 competitors with links & description |
+| **Day 4** | [x] Finish Skill Research; find demand evidence; write pricing & alternatives | [ ] Start Distribution Plan; list channels; write detailed action plan | Skill Research done; Distribution Plan v1 |
 | **Day 5** | [ ] Finish Distribution Plan; full review; create web presentation (Gemini Canvas) | [ ] **PRESENTATION** 15–20 min + Q&A | Everything pushed to GitHub; presentation ready |
 
 ---
@@ -75,8 +75,8 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 
 - [ ] GitHub repo public; link sent to Telegram group
 - [ ] Web presentation (Gemini Canvas) link in README.md
-- [ ] Competitive Landscape: ≥5 competitors, data, analysis, conclusion
-- [ ] Skill Research: 5–10 skills, each with target user, problem, alternative, pricing, demand evidence
+- [x] Competitive Landscape: ≥5 competitors, data, analysis, conclusion
+- [x] Skill Research: 5–10 skills, each with target user, problem, alternative, pricing, demand evidence
 - [ ] Distribution Plan: specific channels, action plan, timeline, metrics, budget allocation
 - [ ] At least 1 organic and 1 paid channel in Distribution Plan
 - [ ] All deliverables pushed to GitHub
@@ -86,4 +86,4 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 
 ---
 
-*Last updated: add the date when you edit this file.*
+*Last updated: Feb 2026*
