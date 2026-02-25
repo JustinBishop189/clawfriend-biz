@@ -27,6 +27,7 @@
   - **Targeting:** Follower lookalike of @OpenClaw, @clawfriend_ai; interests: AI agents, BNB Chain, DeFi, crypto trading bots. Exclude existing followers to focus on cold acquisition.
   - **Landing:** Homepage or dedicated `/skill-market` page with UTM `utm_source=twitter&utm_medium=cpc&utm_campaign=month1`.
   - **Cap:** Max $150/day to spread across 30 days; pause or shift if CPC > $1.00 or conversion < 2%.
+- **Contingency if Twitter Ads underperform:** If by end of Week 2 CPC > $1.00 or sign-up conversion < 2%, (1) pause Twitter at 50% of month budget ($2,250), (2) reallocate $1,500 to KOL (second creator or extended deal) and $750 to Reddit/Telegram. Document reason and new targets in week report. If underperformance continues in Week 3, shift remaining Twitter budget to organic amplification (boost best blog post, partnership push) and one extra Twitter Space or AMA.
 - **Timeline:**
   - **Week 1:** Finalize creative (video + 2 static variants); set up campaign, audience, and UTM. Soft launch at $80/day.
   - **Week 2:** Scale to $150/day if CPC < $0.70 and CTR > 0.5%; A/B test headline.
@@ -80,8 +81,8 @@
 - **Why this channel:** r/cryptocurrency, r/ethereum, and agentic/OpenClaw Telegram groups have users actively searching for “agent platform,” “skill marketplace,” “BNB agent.” Sponsored or boosted posts get in front of them without relying only on organic virality.
 - **Detailed action plan:**
   - **Reddit:** Use Reddit Ads (Promoted Post). Subreddits: r/cryptocurrency, r/ethereum, r/BNBChain (if allowed by mods). Ad copy: “OpenClaw-native Skill Market on BNB — deploy an agent, install Github/Twitter/Browser skills in one place. No Base gas wars.” Link to clawfriend.ai with UTM `utm_source=reddit&utm_medium=paid&utm_campaign=month1`. Budget: ~$800 for month (daily cap ~$27). Comply with sub rules (no misleading, disclose ad).
-  - **Telegram:** Identify 2–3 Telegram groups (e.g. OpenClaw community, BNB builders, agentic economy). Option A: Pay group admin for one pinned “Partner: ClawFriend Skill Market” message with link (one-time $200–400 per group). Option B: Reddit-first; if Reddit underperforms, shift $300–500 to Telegram.
-  - **Fallback:** If Reddit rejects or underperforms, reallocate to more Twitter Ads or a second KOL.
+  - **Telegram:** Identify 2–3 Telegram groups (e.g. OpenClaw community, BNB builders, agentic economy). **Commit:** Allocate $400–600 to Telegram in Week 2–3: pay 1–2 group admins for one pinned “Partner: ClawFriend Skill Market” message (one-time $200–300 per group) with UTM link. Choose groups with 1K+ members and clear “no spam” rules. If Reddit performs well, use $400 for Telegram; if Reddit underperforms, shift $500 from Reddit to a second Telegram group.
+  - **Fallback:** If Reddit rejects or underperforms, reallocate to Telegram (as above) or to a second KOL.
 - **Timeline:**
   - **Week 1:** Draft Reddit ad; check subreddit ad policies. Create Telegram shortlist and contact admins.
   - **Week 2:** Launch Reddit campaign; send Telegram partnership proposal.
@@ -107,7 +108,7 @@
   - **Week 4:** Publish post 4 (comparison). Compile all links into one “Month 1 resources” tweet and pin.
 - **Estimated reach:** 2K–8K total page views (depending on distribution); long-tail SEO in following months.
 - **Cost:** $0 (organic).
-- **How to measure:** Page views (Mirror/dev.to analytics), clicks to clawfriend.ai (UTM), sign-ups from `utm_source=blog`. Track which post drives most sign-ups.
+- **How to measure:** Page views (Mirror/dev.to analytics), clicks to clawfriend.ai (UTM), sign-ups from `utm_source=blog`. Track which post drives most sign-ups. **Organic KPIs (in addition to sign-ups):** (1) Comments per post (target: 5+ per post in Week 2–4), (2) Shares/retweets per post (target: 10+ combined), (3) New joins or active members in 1–2 key Telegram/Discord communities where we share (baseline in Week 1, then track).
 
 ---
 
@@ -168,6 +169,8 @@
   - **Total target:** **550–1,250** (primary metric: registered users or “started onboarding”); secondary: skill downloads from Skill Market.
 
 - **Success criteria for month 2:** If CAC < $20 and organic share of sign-ups > 25%, double down on best-paid channel and partnership; if CAC > $30, shift budget toward KOL + organic and reduce Twitter spend until creative/landing is improved.
+
+- **$10K ROI and next step after sign-up:** Month-one “ROI” is **acquisition and activation**, not revenue. Target: 550–1,250 sign-ups at CAC ~$16.67. **Next step (LTV proxy):** Track “activated” users (e.g. completed agent registration, or first skill download from Skill Market) within 7 days of sign-up; target 20–30% activation. If we hit 600 sign-ups and 25% activate → 150 activated users; these are the cohort for month-2 retention and (later) share purchases or creator fees. **Answer for judges:** “$10K buys us ~600 sign-ups and ~150 activated users; we measure success by activation rate and will optimize for LTV (share trading, creator revenue) in month 2–3.”
 
 ---
 

@@ -6,7 +6,7 @@
 
 ## 1. Competitor list (5–10)
 
-All five platforms below operate in the same **global agentic economy** space as ClawFriend: tokenized, on-chain autonomous AI agents as economic entities (wallets, shares/tokens, trading, social/coordination layers, real revenue). ClawFriend (launched ~Feb 10, 2026 on BNB Chain, integrated with OpenClaw) is early-stage; the others are more mature (mostly 2024–2025 launches, scaling in 2026).
+All six platforms below operate in the same **global agentic economy** (or adjacent AI/agent marketplace) space as ClawFriend: tokenized, on-chain autonomous AI agents as economic entities (wallets, shares/tokens, trading, social/coordination layers, real revenue). ClawFriend (launched ~Feb 10, 2026 on BNB Chain, integrated with OpenClaw) is early-stage; the others are more mature (mostly 2024–2025 launches, scaling in 2026).
 
 | # | Name | Link | Short description | User/Volume/Key metrics (source) | Monetization | Strengths | Weaknesses |
 |---|------|------|-------------------|----------------------------------|--------------|-----------|------------|
@@ -15,6 +15,7 @@ All five platforms below operate in the same **global agentic economy** space as
 | 3 | **Kite AI** | (KITE token) | Dedicated L1 for agentic economy. Native agent identities, secure wallets, programmable spending, M2M payments (often stablecoin). | Not public; top-100 AI agent token by mcap (~$130–427M) | KITE token; native chain economics | Purpose-built L1; identity & payments | Metrics opaque; newer L1 |
 | 4 | **Clanker / tokenbot** | Base (CLANKER) | Autonomous DeFi + AI agent platform. Tokenized agents launch tokens, provide liquidity, run trading strategies. “Backend for agentic Web3.” | $7.62B all-time asset vol; $8M fees peak week; 21,870 tokens launched in one day | Fees; token launches; DeFi volume | Velocity, DeFi depth, volume | Base-only; less “social agent” than trading |
 | 5 | **Clawnch** | clawn.ch | Agent tooling & launch platform (Base + multi-chain). Ready-made tools for socialization, trading, collaboration; often bundled with ClawRouter, ClawPump. | Part of 20K+ recent agent wave; ecosystem tool | Tooling / platform fees | Ecosystem fit; tooling layer; multi-chain | Metrics not public; tooling layer, not primary economy |
+| 6 | **SingularityNET** | marketplace.singularitynet.io | Decentralized AI marketplace (AI services: text, image, face detection, gene sequencing, etc.). AGIX token + fiat; SDKs for devs; part of ASI Alliance. | Many AI services live; user count not fully public (Feb 2025–2026) | AGIX token; PayPal; publisher fees | Long-standing AI marketplace brand; multi-chain / ASI | General AI services, not tokenized “agents”; different model from agentic economy |
 
 ---
 
@@ -55,6 +56,13 @@ All five platforms below operate in the same **global agentic economy** space as
 - **Why users choose / don’t choose them:** Choose for launch and tooling; use alongside other platforms rather than as main economy.
 - **What we can learn:** Tooling and launch experience matter; OpenClaw + ClawFriend skill install is a natural integration point.
 
+### Competitor 6: SingularityNET (marketplace.singularitynet.io)
+
+- **Doing well:** Established decentralized AI marketplace (browse by org, search, free API trials); AGIX + PayPal; Python/Node SDKs; ASI Alliance; 2025 partnerships (e.g. Star Atlas). Broad AI services (text, image, genomics, etc.).
+- **Doing poorly:** Model is “AI services” not “tokenized agents with shares/social”; user/agent counts not clearly public; different use case from bonding-curve agent economies.
+- **Why users choose / don’t choose them:** Choose for general AI APIs and marketplace brand; avoid if focus is agentic economy, agent shares, or OpenClaw-style skills.
+- **What we can learn:** “AI marketplace” is a known category; we differentiate by **agent-first**, **skill market for agents**, and **bonding-curve shares** on BNB.
+
 ---
 
 ## 3. Market overview
@@ -75,10 +83,11 @@ All five platforms below operate in the same **global agentic economy** space as
 | **Kite AI** | Kite L1 | Not public | Not public (high in AI agent coin rankings) | Not public | Top-100 AI agent token (~$130–427M mcap) | Dedicated agent L1, growing |
 | **Clanker / tokenbot** | Base | Thousands (via launches) | $7.62B all-time asset vol; $8M fees peak week | Not public | 21,870 tokens launched in one day | High-velocity DeFi agent layer |
 | **Clawnch** | Base + multi | Part of 20K+ recent wave | Not public (ecosystem tool) | Not public | Bundled with ClawRouter, ClawPump | Emerging tooling layer (2026) |
+| **SingularityNET** | Multi (AGIX) | Many AI services | Marketplace live; user metrics not fully public | AGIX token; ASI Alliance | SDKs, Publisher Portal, dev docs | General AI marketplace (not agentic economy) |
 
 **Strategic insight**
 
-- **Chain & pricing:** Virtuals and Clanker are Base-centric with large volume and fees; Talus is Sui + EVM enterprise; Kite is own L1; Clawnch is multi-chain tooling. ClawFriend is **BNB-only**, low fees, bonding-curve shares.
+- **Chain & pricing:** Virtuals and Clanker are Base-centric with large volume and fees; Talus is Sui + EVM enterprise; Kite is own L1; Clawnch is multi-chain tooling; SingularityNET is general AI marketplace (AGIX). ClawFriend is **BNB-only**, low fees, bonding-curve shares.
 - **Gaps:** No dominant player combines **BNB Chain + OpenClaw + Skill Market + social stream + bonding-curve** in one product. Virtuals is the “10–100× bigger” version of what ClawFriend aims to become; ClawFriend can own **OpenClaw-native + skills + cheap BNB**.
 - **Positioning:** ClawFriend wins on **lightweight, OpenClaw-native experience and integrated Skill Market on BNB**; loses on liquidity, volume, and brand maturity vs Virtuals/Clanker.
 
@@ -95,5 +104,5 @@ All five platforms below operate in the same **global agentic economy** space as
 
 ## Data sources
 
-- **Platforms:** virtuals.io, talus.network, clawn.ch; Clanker/tokenbot (Base); Kite AI (KITE token).  
+- **Platforms:** virtuals.io, talus.network, clawn.ch; Clanker/tokenbot (Base); Kite AI (KITE token); marketplace.singularitynet.io (SingularityNET).  
 - **Metrics:** As of **Feb 24, 2026**—platform dashboards, ecosystem roundups, and public reports. Exact figures (e.g. Virtuals GDP, Clanker volume, Talus valuation) should be re-verified on official sites or explorers before final submission.

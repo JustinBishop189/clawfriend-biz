@@ -53,7 +53,7 @@
 - **Problem:** Manual triage of issues/PRs and repo checks take 1–2+ hours/day; no single “agent that can act as my dev assistant” with safe, scoped GitHub access.
 - **Current alternative:** Native GitHub UI + `gh` CLI manually; no agent-native workflow. Other agent platforms have limited or no GitHub integration.
 - **How the skill solves it:** Gives the agent full `gh` CLI integration (issues, PRs, repos, commits, reviews, workflows) so it can act on natural-language requests (e.g. “list open PRs”, “draft a release”).
-- **Proposed visibility & monetization:** **Public** first to attract devs and prove quality; optional **private/holder-gated** “pro” version (e.g. workflow templates, multi-org support) for agent creators with 1+ share. No direct competitor at same price; GitHub Copilot is code-only, not full repo automation.
+- **Proposed visibility & monetization:** **Public** first to attract devs and prove quality; optional **private/holder-gated** “pro” version (e.g. workflow templates, multi-org support) for users holding **≥1 share** of the agent creator. No direct competitor at same price; GitHub Copilot is code-only, not full repo automation.
 - **Demand evidence:** ~**25.5k** downloads on ClawHub; daily essential in every dev/awesome list and Reddit threads; #1 dev skill in community mentions (Feb 2026).
 
 ---
@@ -86,7 +86,7 @@
 - **Problem:** Managing Twitter/X manually is time-consuming; agents without Twitter skill cannot maintain a consistent voice or engage in real time.
 - **Current alternative:** Typefully, Buffer, or manual posting; no deep integration with agent memory and strategy.
 - **How the skill solves it:** Write threads, reply, and research viral examples from inside the agent; enables “agent as creator” and aligns with ClawFriend’s social stream (agents tweet/reply/follow).
-- **Proposed visibility & monetization:** **Public** to attract creators and showcase social layer; **private** “thread templates + analytics” for agent creators (holder-gated). Directly supports ClawFriend’s differentiator: social + skills + shares.
+- **Proposed visibility & monetization:** **Public** to attract creators and showcase social layer; **private** “thread templates + analytics” for users holding **≥1 share** of the agent creator (holder-gated). Directly supports ClawFriend’s differentiator: social + skills + shares.
 - **Demand evidence:** ~**23.8k** downloads; huge in content creator and marketing communities; enables autonomous social media presence (Feb 2026).
 
 ---
@@ -97,7 +97,7 @@
 - **Problem:** “Agent forgets everything” is the #1 complaint; no typed, structured long-term memory that links entities across conversations.
 - **Current alternative:** Ad-hoc notes, external CRMs, or no memory; some platforms have simple key-value memory but not graph-based.
 - **How the skill solves it:** Typed knowledge graph + structured long-term memory so the agent retains and links people, projects, and tasks across sessions.
-- **Proposed visibility & monetization:** **Public** to increase stickiness; **private** “team graph” or “cross-agent memory” for shareholders. Top memory solution in 2026 agent discussions—premium positioning possible.
+- **Proposed visibility & monetization:** **Public** to increase stickiness; **private** “team graph” or “cross-agent memory” for users holding **≥1 share** of the agent creator. Top memory solution in 2026 agent discussions—premium positioning possible.
 - **Demand evidence:** ~**30.1k** downloads; top memory solution in 2026 agent discussions; solves the #1 user complaint (Feb 2026).
 
 ---
@@ -119,7 +119,7 @@
 - **Problem:** On-chain actions require wallet UIs or custom scripts; no agent-native “trade and monitor” flow with LLM reasoning.
 - **Current alternative:** Manual DEX UIs; trading bots (often opaque or custodial); no open, agent-controllable trading skill from a trusted source.
 - **How the skill solves it:** Crypto trading agent + LLM gateway supporting multiple chains; natural language trading, swaps, portfolio monitoring; often used with bankr-signals for analysis. Fits ClawFriend’s agentic economy (agents as financial actors).
-- **Proposed visibility & monetization:** **Public** with clear “use at your own risk” and audit status; **private** “signals + strategies” for agent creators (holder-gated). From BankrBot/openclaw-skills (curated); frequently demoed in Base/DeFi agent threads.
+- **Proposed visibility & monetization:** **Public** with clear “use at your own risk” and audit status; **private** “signals + strategies” for users holding **≥1 share** of the agent creator (holder-gated). From BankrBot/openclaw-skills (curated); frequently demoed in Base/DeFi agent threads.
 - **Demand evidence:** Frequently demoed in Base/DeFi agent threads; enables autonomous on-chain actions; part of trusted BankrBot repo (Feb 2026). **Security:** Only recommend from audited/curated sources; avoid unknown “crypto bot” skills.
 
 ---
@@ -130,7 +130,7 @@
 - **Problem:** Giving an agent full wallet access is high risk; no standard “agentic wallet” with policies and multi-chain support (Ethereum, Solana, 10+ chains).
 - **Current alternative:** Full hot wallets (risky); multisig (complex); no agent-native policy layer.
 - **How the skill solves it:** Creates/manages crypto wallets that AI agents control under policies (limits, allowed contracts, chains); secure DeFi execution with reduced exposure. From Privy (privy-io); focus on safety.
-- **Proposed visibility & monetization:** **Public** for adoption (safety is a differentiator); **private** “enterprise policies” or “team wallets” for shareholders. Aligns with ClawFriend’s “agent as economic entity” narrative.
+- **Proposed visibility & monetization:** **Public** for adoption (safety is a differentiator); **private** “enterprise policies” or “team wallets” for users holding **≥1 share** of the agent creator. Aligns with ClawFriend’s “agent as economic entity” narrative.
 - **Demand evidence:** From Privy’s official agentic-wallets skill; safety-focused; discussed in DeFi/agentic wallet threads (Feb 2026). **Security:** Install only from official Privy repo; verify SKILL.md.
 
 ---
@@ -161,6 +161,8 @@ Many come from **BankrBot/openclaw-skills**. Safe install: clone repo → copy t
 ---
 
 ## Honorable mentions (candidates for later)
+
+**Why Gog is Honorable Mention (and not in the main 8):** Gog has the highest ClawHub downloads (~34.8k) and is the #1 productivity skill. We kept it in Honorable Mentions because (1) **ClawFriend’s positioning is Web3/agentic economy and Skill Market** — we prioritized skills that drive share demand and align with BNB, social stream, and crypto/agent use cases (Github, Browser, Twitter, Bankr, Privy). (2) Gog is a **general productivity** skill (Google Workspace); adding it as a 9th “productivity staple” is easy later. (3) Judges may ask: *“Why list Bankr/Privy over Gog?”* — answer: **Web3-native and agent-economy relevance**; Bankr/Privy support on-chain agents and share-holder value; Gog supports daily workflow but does not differentiate ClawFriend’s marketplace. We can still list Gog as public skill #1 by downloads in the marketplace UI.
 
 - **Gog** (~34.8k): Google Workspace CLI—#1 most downloaded; best as public “productivity staple.”
 - **Tavily Web Search** (~29k): AI-optimized search; better than raw browser search for research-heavy agents (needs Tavily API key).

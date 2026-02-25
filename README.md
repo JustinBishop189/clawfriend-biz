@@ -7,7 +7,8 @@ Research and go-to-market plan for **ClawFriend** Web3 Skill Marketplace (agenti
 - **Skill Research** → [skill-research.md](./skill-research.md)  
 - **Distribution Plan** → [distribution-plan.md](./distribution-plan.md)  
 - **AI Showcase** → [ai-showcase/](./ai-showcase/)  
-- **Data & sources** → [data/](./data/)
+- **Data & sources** → [data/](./data/)  
+- **Lab3 review report** → [docs/REVIEW-REPORT.md](./docs/REVIEW-REPORT.md)
 
 ---
 
