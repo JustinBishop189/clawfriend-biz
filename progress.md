@@ -12,7 +12,7 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 |--------|-------------|--------|-------|
 | **25%** | [Competitive Landscape](./competitive-landscape.md) | [x] | 5 competitors, table, analysis, positioning |
 | **25%** | [Skill Research](./skill-research.md) | [x] | 8 skills, ClawHub demand, crypto section, sources |
-| **40%** | [Distribution Plan](./distribution-plan.md) | [ ] | 3–5 channels, $10K budget, action plan, metrics |
+| **40%** | [Distribution Plan](./distribution-plan.md) | [x] | 6 channels, $10K budget, week-by-week plan, unit economics |
 | **10%** | Presentation & Q&A | [ ] | 15–20 min present + Q&A with judges |
 
 ---
@@ -40,15 +40,15 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 
 ### Deliverable 3: Distribution Plan (40%)
 
-- [ ] Budget overview: $10K month-one allocation (table)
-- [ ] At least 3–5 acquisition channels
-- [ ] Per channel: why, action plan, timeline (week 1–4), reach, cost, metrics
-- [ ] At least 1 organic channel ($0) and 1 paid channel
-- [ ] Total paid ≤ $10,000
-- [ ] (Bonus) Partnership/collab: partner name, rationale, mutual benefit, actions
-- [ ] Overall timeline table (month one)
-- [ ] Unit economics (CAC, conversion, targets) if applicable
-- [ ] Sanity check: “Could an intern execute this?”
+- [x] Budget overview: $10K month-one allocation (table)
+- [x] At least 3–5 acquisition channels
+- [x] Per channel: why, action plan, timeline (week 1–4), reach, cost, metrics
+- [x] At least 1 organic channel ($0) and 1 paid channel
+- [x] Total paid ≤ $10,000
+- [x] (Bonus) Partnership/collab: partner name, rationale, mutual benefit, actions
+- [x] Overall timeline table (month one)
+- [x] Unit economics (CAC, conversion, targets) if applicable
+- [x] Sanity check: “Could an intern execute this?”
 
 ### Supporting outputs
 
@@ -66,7 +66,7 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 | Day | Morning | Afternoon | Daily goal |
 |-----|---------|-----------|------------|
 | **Day 3** | [x] Read guidebook; start competitor research; list competitors | [x] Analyze each competitor; start skill brainstorm | 5–10 competitors with links & description |
-| **Day 4** | [x] Finish Skill Research; find demand evidence; write pricing & alternatives | [ ] Start Distribution Plan; list channels; write detailed action plan | Skill Research done; Distribution Plan v1 |
+| **Day 4** | [x] Finish Skill Research; find demand evidence; write pricing & alternatives | [x] Start Distribution Plan; list channels; write detailed action plan | Skill Research done; Distribution Plan v1 |
 | **Day 5** | [ ] Finish Distribution Plan; full review; create web presentation (Gemini Canvas) | [ ] **PRESENTATION** 15–20 min + Q&A | Everything pushed to GitHub; presentation ready |
 
 ---
@@ -77,8 +77,8 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 - [ ] Web presentation (Gemini Canvas) link in README.md
 - [x] Competitive Landscape: ≥5 competitors, data, analysis, conclusion
 - [x] Skill Research: 5–10 skills, each with target user, problem, alternative, pricing, demand evidence
-- [ ] Distribution Plan: specific channels, action plan, timeline, metrics, budget allocation
-- [ ] At least 1 organic and 1 paid channel in Distribution Plan
+- [x] Distribution Plan: specific channels, action plan, timeline, metrics, budget allocation
+- [x] At least 1 organic and 1 paid channel in Distribution Plan
 - [ ] All deliverables pushed to GitHub
 - [ ] AI showcase: screenshot/link of best AI prompts ready
 - [ ] Ready for judge Q&A (why we win vs competitors, demand evidence, $10K ROI, why not ChatGPT)
