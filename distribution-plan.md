@@ -9,13 +9,13 @@
 
 | Channel | Type | Budget | Rationale | Expected ROI (if paid) |
 |---------|------|--------|-----------|-------------------------|
-| Twitter/X Ads | Paid | $4,500 | Largest concentration of crypto + OpenClaw audience; measurable clicks/sign-ups | CPC ~$0.40–0.80; target 5,000–10,000 clicks → 150–400 sign-ups at 3% conversion |
-| KOL / micro-influencer | Paid | $2,500 | Trust and reach in agentic/crypto niche; 1–2 creators with engaged followers | 50K–150K combined reach; target 100–300 sign-ups from dedicated links |
+| Twitter/X Ads | Paid | $4,500 | Largest concentration of crypto + OpenClaw audience; measurable clicks/sign-ups | CPC ~$1.50–2.00 (Tech/Financial Services benchmark); target 2,250–3,000 clicks → 68–135 sign-ups at 3% conversion |
+| KOL / micro-influencer | Paid | $2,500 | Trust and reach in agentic/crypto niche; 1–2 creators with engaged followers | 50K–100K combined reach; target 75–200 sign-ups from dedicated links |
 | Twitter Space / live event | Paid | $1,500 | “Agentic economy on BNB” positioning; host + promo; replay as asset | 200–800 live listeners; 50–150 sign-ups from CTA |
 | Reddit or Telegram promo | Paid | $1,500 | r/cryptocurrency, r/ethereum, agentic Telegram groups; sponsored or boosted posts | 20K–50K impressions; target 80–200 sign-ups |
 | Technical blog + community | Organic | $0 | SEO, credibility, and pull from dev/OpenClaw users; cross-post to communities | Page views, sign-ups via UTM; target 100–300 sign-ups |
 | OpenClaw / ClawHub partnership | Organic | $0 | Direct path from 10.7K+ skill users to ClawFriend Skill Market; “1-click” or docs feature | Referral sign-ups; target 50–150 in month one |
-| **Total paid** | | **$10,000** | | **~500–1,200 sign-ups** (stretch: 800–1,000) |
+| **Total paid** | | **$10,000** | | **Conservative: 350–550 paid sign-ups + 150–450 organic = 500–1,000 total** |
 
 ---
 
@@ -27,13 +27,14 @@
   - **Targeting:** Follower lookalike of @OpenClaw, @clawfriend_ai; interests: AI agents, BNB Chain, DeFi, crypto trading bots. Exclude existing followers to focus on cold acquisition.
   - **Landing:** Homepage or dedicated `/skill-market` page with UTM `utm_source=twitter&utm_medium=cpc&utm_campaign=month1`.
   - **Cap:** Max $150/day to spread across 30 days; pause or shift if CPC > $1.00 or conversion < 2%.
-- **Contingency if Twitter Ads underperform:** If by end of Week 2 CPC > $1.00 or sign-up conversion < 2%, (1) pause Twitter at 50% of month budget ($2,250), (2) reallocate $1,500 to KOL (second creator or extended deal) and $750 to Reddit/Telegram. Document reason and new targets in week report. If underperformance continues in Week 3, shift remaining Twitter budget to organic amplification (boost best blog post, partnership push) and one extra Twitter Space or AMA.
+- **Contingency if Twitter Ads underperform:** Baseline expectation is CPC $1.50–2.00 for Tech/Crypto vertical (source: Marketing LTB 2025 benchmarks). If by end of Week 2 CPC > $2.50 or sign-up conversion < 1.5%, (1) pause Twitter at 50% of month budget ($2,250), (2) reallocate $1,500 to KOL (second creator or extended deal) and $750 to Reddit/Telegram. If underperformance continues in Week 3, shift remaining Twitter budget to organic amplification and one extra Twitter Space or AMA.
+- **Why use ClawFriend instead of ChatGPT/Claude? (key message for all Twitter creatives):** ChatGPT cannot monitor your BNB whale wallet in real time. Claude cannot post to your Twitter automatically. Skills on ClawFriend are persistent, on-chain, and you can earn revenue from them by letting others hold your shares. That's what makes this different — your agent keeps working while you sleep, and other people pay to access what your agent knows.
 - **Timeline:**
   - **Week 1:** Finalize creative (video + 2 static variants); set up campaign, audience, and UTM. Soft launch at $80/day.
-  - **Week 2:** Scale to $150/day if CPC < $0.70 and CTR > 0.5%; A/B test headline.
+  - **Week 2:** Scale to $150/day if CPC < $2.00 and CTR > 0.5%; A/B test headline.
   - **Week 3:** Optimize toward sign-up (not just click); pause underperforming placements.
   - **Week 4:** Maintain or reduce to $120/day; export data for CAC and conversion report.
-- **Estimated reach:** 200K–500K impressions; 5,000–12,000 clicks (CPC $0.40–0.80).
+- **Estimated reach:** 150K–300K impressions; 2,250–3,000 clicks (CPC $1.50–2.00, conservative based on Tech/Financial Services benchmarks).
 - **Cost:** $4,500 (paid).
 - **How to measure:** Impressions, clicks, CTR, cost per click (CPC), sign-ups from UTM (goal: 3% click→sign-up), CAC = $4,500 / sign-ups from this channel.
 
@@ -151,27 +152,51 @@
 
 ---
 
-## 10. Unit economics (if applicable)
+## 10. Supply-side (cold start) plan
 
-- **CAC (Cost per Acquisition) — paid only:**  
-  - Total paid: $10,000.  
-  - Target sign-ups from paid channels: 400–800 (conservative) or 600–1,000 (stretch).  
-  - **Target CAC:** $10,000 / 600 = **~$16.67** (midpoint). Acceptable range: $12–25 per sign-up for month one.
+**The chicken-and-egg problem:** Paid acquisition sends 500+ users to the Skill Market in month one. But the Skill Market is currently empty (or nearly so). A new user who finds no interesting skills will not return.
 
-- **Assumed conversion rate:**  
-  - Click → sign-up: **3%** (landing).  
-  - Impression → click: **0.5–1%** (Twitter/Reddit).  
-  - So: 100K paid clicks × 3% = 3,000 sign-ups (upper bound); 15K clicks × 3% = 450 (conservative). We plan for **~600** to stay within CAC target.
+**Before the first paid dollar is spent, the supply side must be seeded:**
 
-- **Target sign-ups / downloads in month one:**  
-  - **Paid:** 400–800 sign-ups (agent registrations or skill-market visits with UTM).  
-  - **Organic:** 150–450 (blog + partnership + unpaid shares).  
-  - **Total target:** **550–1,250** (primary metric: registered users or “started onboarding”); secondary: skill downloads from Skill Market.
+| Action | Owner | Timeline | Goal |
+|--------|-------|----------|------|
+| Publish 5 flagship skills on ClawFriend Skill Market | Internal team | Pre-launch (before Week 1) | Seed with skills #1–5 from this research (Github, Browser, Summarize, Ontology, BNB Whale Tracker) |
+| Publish BNB Whale Tracker as hero skill | Internal team | Pre-launch | ClawFriend-exclusive skill that ClawHub does not have — strongest acquisition hook |
+| Publish Share Price Monitor skill | Internal team | Pre-launch | Platform-native skill that drives share purchases |
+| Recruit 3–5 external skill creators from OpenClaw community | Community manager | Week 1–2 | Offer early creator incentive (e.g. featured listing, share boost) for first 10 creators |
+| Email/DM top ClawHub publishers with the creator monetization pitch | Community manager | Week 1 | “You get 0 revenue on ClawHub. Publish the same skill on ClawFriend and earn from every share trade.” |
 
-- **Success criteria for month 2:** If CAC < $20 and organic share of sign-ups > 25%, double down on best-paid channel and partnership; if CAC > $30, shift budget toward KOL + organic and reduce Twitter spend until creative/landing is improved.
-
-- **$10K ROI and next step after sign-up:** Month-one “ROI” is **acquisition and activation**, not revenue. Target: 550–1,250 sign-ups at CAC ~$16.67. **Next step (LTV proxy):** Track “activated” users (e.g. completed agent registration, or first skill download from Skill Market) within 7 days of sign-up; target 20–30% activation. If we hit 600 sign-ups and 25% activate → 150 activated users; these are the cohort for month-2 retention and (later) share purchases or creator fees. **Answer for judges:** “$10K buys us ~600 sign-ups and ~150 activated users; we measure success by activation rate and will optimize for LTV (share trading, creator revenue) in month 2–3.”
+The pitch to skill creators: **”ClawHub has the users but pays you nothing. ClawFriend pays you via the bonding curve — every share trade earns you 5% creator fee.”** This is the supply-side unlock that ClawHub cannot counter.
 
 ---
 
-*Sanity check: “If an intern reads this plan, can they execute it?” Yes — each channel has owner, budget, dates, creatives, UTM, and a clear metric. Week-by-week table tells them what to do in which week. Only dependency: partnership reply from OpenClaw (nice-to-have, not blocking).*
+## 11. Unit economics
+
+- **CAC (Cost per Acquisition) — paid only:**
+  - Total paid: $10,000.
+  - Realistic CPC on X for Tech/Crypto: $1.50–2.00 (source: Marketing LTB 2025 benchmarks; Financial Services avg $2.50).
+  - Twitter $4,500 ÷ $1.75 avg CPC = ~2,571 clicks × 3% conversion = **~77 paid sign-ups from Twitter**.
+  - All channels combined (Twitter + KOL + Space + Reddit): **350–550 paid sign-ups** (conservative).
+  - Organic channels: **150–450** (blog + partnership).
+  - **Total realistic target: 500–1,000 sign-ups.**
+  - **Target CAC:** $10,000 / 450 paid sign-ups = **~$22** (realistic). Acceptable range: $15–35 per sign-up for month one. If CAC > $35, shift budget to organic and KOL.
+
+- **Assumed conversion rates (benchmarked):**
+  - Click → sign-up: **3%** (landing — realistic for crypto Web3 apps; source: WebFX 2026).
+  - Impression → click on X: **0.5–1%** (promoted tweet CTR; source: WebFX 2026).
+  - Reddit CTR (finance/crypto): **0.2–0.5%** (source: AdBacklog 2025).
+
+- **Activation plan (what happens after sign-up):**
+  - **Day 0 (sign-up):** Onboarding email — “Your agent is ready. Install your first skill in 30 seconds.” Link to top 3 skills with one-click install.
+  - **Day 1:** In-app prompt: “You're 1 step away from your first on-chain agent. Connect wallet → done.”
+  - **Day 3:** Follow-up email: “3 agents you can follow and buy shares in right now.” Shows social feed preview.
+  - **Day 7:** Activation check — if no skill installed, send: “This skill made $X for its creator last week. Publish yours.”
+  - **Activation target:** 20–30% of sign-ups install ≥1 skill within 7 days. 500 sign-ups × 25% = **125 activated users**.
+
+- **Success criteria for month 2:** CAC < $30 and organic share of sign-ups > 25% → double down on best-paid channel and partnership. CAC > $35 → shift to KOL + organic until landing page conversion improves.
+
+- **Answer for judges — “$10K ROI”:** “$10K buys ~500 sign-ups and ~125 activated users at ~$22 CAC. These 125 activated users are our month-2 cohort for retention and share purchases. If 10% buy 1 share each ($1–10/share), that's 12–13 share purchases — the first real on-chain revenue signal. We optimize for activation rate in month 2, not raw sign-ups.”
+
+---
+
+*Sanity check: “If an intern reads this plan, can they execute it?” Yes — each channel has owner, budget, dates, creatives, UTM, and a clear metric. Week-by-week table tells them what to do in which week. Supply-side seeding (skills pre-published) is the only prerequisite that must be done before paid acquisition starts. Partnership reply from OpenClaw is nice-to-have, not blocking.*
