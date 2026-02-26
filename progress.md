@@ -67,11 +67,11 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 
 ### Supporting outputs
 
-- [ ] [AI Showcase](./ai-showcase/): screenshots or links of AI prompts used for research
+- [x] [AI Showcase](./ai-showcase/): screenshots or links of AI prompts used for research — [prompts-used.md](./ai-showcase/prompts-used.md) + img/ screenshots
 - [x] [Data](./data/data.md): sourced numbers with primary source URLs and retrieval dates
 - [x] [README](./README.md): add Gemini Canvas presentation link when ready
 - [x] Web presentation built (Gemini Canvas; no PowerPoint/Google Slides) — [link](https://gemini.google.com/share/73d4230afa90)
-- [ ] Repo public; link shared in Telegram
+- [x] Repo public; link shared in Telegram
 - [x] All deliverable files pushed to GitHub (commit 7636905)
 
 ---
@@ -82,20 +82,20 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 |-----|---------|-----------|------------|
 | **Day 3** | [x] Read guidebook; start competitor research; list competitors | [x] Analyze each competitor; start skill brainstorm | 5–10 competitors with links & description |
 | **Day 4** | [x] Finish Skill Research; find demand evidence; write pricing & alternatives | [x] Start Distribution Plan; list channels; write detailed action plan | Skill Research done; Distribution Plan v1 |
-| **Day 5** | [ ] Finish Distribution Plan; full review; create web presentation (Gemini Canvas) | [ ] **PRESENTATION** 15–20 min + Q&A | Everything pushed to GitHub; presentation ready |
+| **Day 5** | [x] Finish Distribution Plan; full review; create web presentation (Gemini Canvas) | [-] **PRESENTATION** 15–20 min + Q&A | Everything pushed to GitHub; presentation ready |
 
 ---
 
 ## Pre-presentation checklist
 
-- [ ] GitHub repo public; link sent to Telegram group
+- [x] GitHub repo public; link sent to Telegram group
 - [x] Web presentation (Gemini Canvas) link in README.md — [link](https://gemini.google.com/share/73d4230afa90)
 - [x] Competitive Landscape: 8 competitors (incl. ClawHub + Fetch.ai), verified data, analysis, conclusion
 - [x] Skill Research: 10 skills, each with target user, problem, alternative, pricing, demand evidence
 - [x] Distribution Plan: 6 channels, realistic CPC, cold start plan, activation plan, unit economics
 - [x] At least 1 organic and 1 paid channel in Distribution Plan
 - [x] All deliverables pushed to GitHub (commit 7636905, Feb 26, 2026)
-- [ ] AI showcase: screenshot/link of best AI prompts ready
+- [x] AI showcase: screenshot/link of best AI prompts ready — [ai-showcase/](./ai-showcase/) with prompts-used.md + screenshots
 - [x] Ready for judge Q&A (why we win vs competitors, demand evidence, $10K ROI, why not ChatGPT)
 - [x] All numbers verified from primary sources — see data/data.md for source URLs
 

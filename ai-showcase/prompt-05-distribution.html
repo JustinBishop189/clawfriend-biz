@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Prompt #5 — Distribution Plan</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #1e1e1e; font-family: 'Segoe UI', system-ui, sans-serif; color: #d4d4d4; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 32px 16px; }
+  .badge { background: #252526; border: 1px solid #3e3e42; border-radius: 6px; padding: 4px 12px; font-size: 11px; color: #858585; margin-bottom: 24px; letter-spacing: 0.5px; text-transform: uppercase; }
+  .window { width: 100%; max-width: 880px; background: #252526; border: 1px solid #3e3e42; border-radius: 10px; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
+  .titlebar { background: #2d2d30; padding: 10px 16px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #3e3e42; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot.red { background: #ff5f57; }
+  .dot.yellow { background: #febc2e; }
+  .dot.green { background: #28c840; }
+  .title { flex: 1; text-align: center; font-size: 12px; color: #858585; }
+  .chat { padding: 24px 20px; display: flex; flex-direction: column; gap: 20px; }
+  .msg { display: flex; gap: 12px; }
+  .avatar { width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; }
+  .avatar.user { background: #0e639c; color: #fff; }
+  .avatar.ai { background: #d97706; color: #fff; }
+  .bubble { flex: 1; }
+  .name { font-size: 12px; color: #858585; margin-bottom: 6px; }
+  .name span { color: #d4d4d4; font-weight: 600; }
+  .text { font-size: 14px; line-height: 1.6; color: #d4d4d4; }
+  .text code { background: #1e1e1e; border: 1px solid #3e3e42; border-radius: 4px; padding: 1px 6px; font-family: 'Cascadia Code', monospace; font-size: 13px; color: #9cdcfe; }
+  .text pre { background: #1e1e1e; border: 1px solid #3e3e42; border-radius: 6px; padding: 14px; margin: 10px 0; overflow-x: auto; font-family: 'Cascadia Code', monospace; font-size: 12px; line-height: 1.7; }
+  .table-wrap { overflow-x: auto; margin: 12px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 12px; }
+  th { background: #2d2d30; color: #9cdcfe; padding: 8px 10px; text-align: left; border: 1px solid #3e3e42; }
+  td { padding: 7px 10px; border: 1px solid #3e3e42; color: #d4d4d4; vertical-align: top; }
+  tr:nth-child(even) td { background: #2a2a2a; }
+  .total td { background: #1a2a1a !important; color: #4ec9b0; font-weight: 700; }
+  .highlight { color: #4ec9b0; }
+  .yellow { color: #dcdcaa; }
+  .blue { color: #9cdcfe; }
+  .green { color: #4ec9b0; }
+  .orange { color: #ce9178; }
+  .gray { color: #858585; }
+  .red-text { color: #f48771; }
+  .divider { border: none; border-top: 1px solid #3e3e42; }
+  .tag { display: inline-block; background: #0e4a72; color: #9cdcfe; font-size: 11px; border-radius: 4px; padding: 2px 8px; margin: 2px 2px 8px 0; font-family: monospace; }
+  .metrics-row { display: flex; gap: 16px; margin: 12px 0; flex-wrap: wrap; }
+  .metric { background: #1e1e1e; border: 1px solid #3e3e42; border-radius: 6px; padding: 10px 16px; flex: 1; min-width: 120px; text-align: center; }
+  .metric .val { font-size: 20px; font-weight: 700; color: #4ec9b0; }
+  .metric .lbl { font-size: 11px; color: #858585; margin-top: 2px; }
+  .caption { margin-top: 24px; font-size: 12px; color: #858585; text-align: center; max-width: 700px; }
+</style>
+</head>
+<body>
+<div class="badge">AI Showcase · Prompt #5 of 5</div>
+<div class="window">
+  <div class="titlebar">
+    <div class="dot red"></div>
+    <div class="dot yellow"></div>
+    <div class="dot green"></div>
+    <div class="title">Cursor — clawfriend-biz — Claude Sonnet</div>
+  </div>
+  <div class="chat">
+
+    <!-- User message -->
+    <div class="msg">
+      <div class="avatar user">J</div>
+      <div class="bubble">
+        <div class="name"><span>You</span> · Feb 26, 2026</div>
+        <div class="text">
+          <div class="tag">@distribution-plan.md</div><br>
+          Give some distribution plan for ClawFriend. Total budget $10K for month one. Channels to consider: Twitter/X Ads, Crypto KOLs, X Spaces, Reddit + Telegram, content/blog, and OpenClaw partnership. Assumptions: Twitter CPC $1.75–2.50 (Tech/Crypto benchmark per WordStream), KOL rates $100–500 micro / $500–5,000 mid, 3% conversion rate, CAC target $50. Also add a cold start plan (supply side first) and an activation sequence (D0/D1/D3/D7). Write it into <code>distribution-plan.md</code>.
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- AI response -->
+    <div class="msg">
+      <div class="avatar ai">C</div>
+      <div class="bubble">
+        <div class="name"><span>Claude</span> · Sonnet 4.6</div>
+        <div class="text">
+          <p>Writing full distribution plan into <code>distribution-plan.md</code>…</p><br>
+          <p><strong class="highlight">Month 1 Budget Allocation — $10,000</strong></p>
+          <div class="table-wrap">
+            <table>
+              <tr><th>Channel</th><th>Budget</th><th>Expected Reach</th><th>Target Outcome</th></tr>
+              <tr><td>Twitter/X Ads</td><td>$3,500</td><td>~1,750 clicks @ $2.00 CPC</td><td>~53 sign-ups @ 3%</td></tr>
+              <tr><td>Crypto KOLs (5 micro)</td><td>$2,000</td><td>~50K–100K impressions</td><td>~80 sign-ups</td></tr>
+              <tr><td>X Spaces (2 sessions)</td><td>$500</td><td>~2K–5K live listeners</td><td>Brand awareness + 20 sign-ups</td></tr>
+              <tr><td>Reddit + Telegram</td><td>$1,000</td><td>r/BNBChain, AI agent communities</td><td>~30 sign-ups</td></tr>
+              <tr><td>Content / Blog (4 posts)</td><td>$1,500</td><td>SEO + social distribution</td><td>Long-tail organic</td></tr>
+              <tr><td>OpenClaw Partnership</td><td>$1,500</td><td>ClawHub featured placement</td><td>~50 developer sign-ups</td></tr>
+              <tr class="total"><td>Total</td><td>$10,000</td><td>—</td><td>~233 sign-ups, CAC ~$43</td></tr>
+            </table>
+          </div>
+          <div class="metrics-row">
+            <div class="metric"><div class="val">~233</div><div class="lbl">Target Sign-ups</div></div>
+            <div class="metric"><div class="val">$43</div><div class="lbl">Blended CAC</div></div>
+            <div class="metric"><div class="val">3%</div><div class="lbl">Conversion Rate</div></div>
+            <div class="metric"><div class="val">25%</div><div class="lbl">Activation Target (D7)</div></div>
+          </div>
+          <pre><span class="yellow">Cold Start Plan</span> (weeks 1–2, before paid spend)
+  → Recruit 10–15 founding skill builders directly (DM on GitHub/Discord)
+  → Seed Skill Market with 5 high-quality skills before launch
+  → Activate OpenClaw partnership for featured listing
+
+<span class="yellow">Activation Sequence</span>
+  D0: Welcome email + "publish your first skill in 5 min" tutorial
+  D1: In-app prompt — "Your agent is waiting for its first skill"
+  D3: Email if no skill published — share a template to copy-paste
+  D7: "Week 1 recap" — show top earners on platform (social proof)</pre>
+          <p>Full plan written. Week-by-week timeline, partnership table, and sanity check all included.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<p class="caption">Prompt 5: Distribution plan — participant set all assumptions (CPC benchmarks from WordStream, KOL rates from market research, 3% conversion). AI generated the budget table, activation sequence, and weekly timeline. CAC figures are derived math, not AI opinion.</p>
+</body>
+</html>

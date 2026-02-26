@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Prompt #1 — Spec Summary</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #1e1e1e; font-family: 'Segoe UI', system-ui, sans-serif; color: #d4d4d4; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 32px 16px; }
+  .badge { background: #252526; border: 1px solid #3e3e42; border-radius: 6px; padding: 4px 12px; font-size: 11px; color: #858585; margin-bottom: 24px; letter-spacing: 0.5px; text-transform: uppercase; }
+  .window { width: 100%; max-width: 800px; background: #252526; border: 1px solid #3e3e42; border-radius: 10px; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
+  .titlebar { background: #2d2d30; padding: 10px 16px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #3e3e42; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot.red { background: #ff5f57; }
+  .dot.yellow { background: #febc2e; }
+  .dot.green { background: #28c840; }
+  .title { flex: 1; text-align: center; font-size: 12px; color: #858585; }
+  .chat { padding: 24px 20px; display: flex; flex-direction: column; gap: 20px; }
+  .msg { display: flex; gap: 12px; }
+  .avatar { width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; }
+  .avatar.user { background: #0e639c; color: #fff; }
+  .avatar.ai { background: #d97706; color: #fff; }
+  .bubble { flex: 1; }
+  .name { font-size: 12px; color: #858585; margin-bottom: 6px; }
+  .name span { color: #d4d4d4; font-weight: 600; }
+  .text { font-size: 14px; line-height: 1.6; color: #d4d4d4; }
+  .text code { background: #1e1e1e; border: 1px solid #3e3e42; border-radius: 4px; padding: 1px 6px; font-family: 'Cascadia Code', 'Fira Code', monospace; font-size: 13px; color: #9cdcfe; }
+  .text pre { background: #1e1e1e; border: 1px solid #3e3e42; border-radius: 6px; padding: 14px; margin: 10px 0; overflow-x: auto; font-family: 'Cascadia Code', monospace; font-size: 13px; line-height: 1.5; }
+  .highlight { color: #4ec9b0; }
+  .yellow { color: #dcdcaa; }
+  .blue { color: #9cdcfe; }
+  .green { color: #4ec9b0; }
+  .divider { border: none; border-top: 1px solid #3e3e42; }
+  .tag { display: inline-block; background: #0e4a72; color: #9cdcfe; font-size: 11px; border-radius: 4px; padding: 2px 8px; margin-bottom: 8px; font-family: monospace; }
+  .caption { margin-top: 24px; font-size: 12px; color: #858585; text-align: center; max-width: 600px; }
+</style>
+</head>
+<body>
+<div class="badge">AI Showcase · Prompt #1 of 5</div>
+<div class="window">
+  <div class="titlebar">
+    <div class="dot red"></div>
+    <div class="dot yellow"></div>
+    <div class="dot green"></div>
+    <div class="title">Cursor — clawfriend-biz — Claude Sonnet</div>
+  </div>
+  <div class="chat">
+
+    <!-- User message -->
+    <div class="msg">
+      <div class="avatar user">J</div>
+      <div class="bubble">
+        <div class="name"><span>You</span> · Feb 26, 2026</div>
+        <div class="text">
+          <div class="tag">@CLAWFRIEND_SPEC.md</div><br>
+          Summarize CLAWFRIEND_SPEC.md — try to summarize this spec. What is ClawFriend, what are its core components, and what is the main opportunity for builders?
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- AI message -->
+    <div class="msg">
+      <div class="avatar ai">C</div>
+      <div class="bubble">
+        <div class="name"><span>Claude</span> · Sonnet 4.6</div>
+        <div class="text">
+          <p>Reading <code>CLAWFRIEND_SPEC.md</code>…</p><br>
+          <p><strong class="highlight">ClawFriend</strong> is a <strong>Web3 agentic economy</strong> built on BNB Smart Chain. Here's the core breakdown:</p><br>
+          <pre><span class="yellow">## What It Is</span>
+<span class="blue">ClawFriend</span> = AI agent marketplace + social layer + share economy
+
+<span class="yellow">## Three Core Components</span>
+<span class="green">1. Skill Market</span>    — agents list, buy, and sell skills (tools/APIs)
+<span class="green">2. Agent Shares</span>    — bonding-curve token for each agent; buy/sell = fund agent
+<span class="green">3. Social Stream</span>   — activity feed: skill use, share trades, agent interactions
+
+<span class="yellow">## Built On</span>
+  OpenClaw framework (227K+ GitHub stars, 1.5M+ ClawHub downloads)
+  BNB Smart Chain (4.32M daily active wallets, lowest gas fees)
+
+<span class="yellow">## Builder Opportunity</span>
+  → Publish skills → earn BNB per call
+  → Issue agent shares → community funds your agent
+  → Ride OpenClaw ecosystem: 10,700+ existing skills as composable building blocks</pre>
+          <p>Key insight: ClawFriend flips the traditional agent-as-product model — <strong>every agent is also a tradeable asset</strong>. This creates a flywheel: skilled agents attract share buyers → share buyers fund more skills → better agents attract more users.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<p class="caption">Prompt 1: Onboarding — summarized the 3,000-word spec into key concepts before writing any deliverable. All technical details (OpenClaw stars, BNB stats) verified against primary sources afterward.</p>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Prompt #4 — Skill Research</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #1e1e1e; font-family: 'Segoe UI', system-ui, sans-serif; color: #d4d4d4; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 32px 16px; }
+  .badge { background: #252526; border: 1px solid #3e3e42; border-radius: 6px; padding: 4px 12px; font-size: 11px; color: #858585; margin-bottom: 24px; letter-spacing: 0.5px; text-transform: uppercase; }
+  .window { width: 100%; max-width: 860px; background: #252526; border: 1px solid #3e3e42; border-radius: 10px; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
+  .titlebar { background: #2d2d30; padding: 10px 16px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #3e3e42; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot.red { background: #ff5f57; }
+  .dot.yellow { background: #febc2e; }
+  .dot.green { background: #28c840; }
+  .title { flex: 1; text-align: center; font-size: 12px; color: #858585; }
+  .chat { padding: 24px 20px; display: flex; flex-direction: column; gap: 20px; }
+  .msg { display: flex; gap: 12px; }
+  .avatar { width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; }
+  .avatar.user { background: #0e639c; color: #fff; }
+  .avatar.ai { background: #d97706; color: #fff; }
+  .bubble { flex: 1; }
+  .name { font-size: 12px; color: #858585; margin-bottom: 6px; }
+  .name span { color: #d4d4d4; font-weight: 600; }
+  .text { font-size: 14px; line-height: 1.6; color: #d4d4d4; }
+  .text code { background: #1e1e1e; border: 1px solid #3e3e42; border-radius: 4px; padding: 1px 6px; font-family: 'Cascadia Code', monospace; font-size: 13px; color: #9cdcfe; }
+  .text pre { background: #1e1e1e; border: 1px solid #3e3e42; border-radius: 6px; padding: 14px; margin: 10px 0; overflow-x: auto; font-family: 'Cascadia Code', monospace; font-size: 12px; line-height: 1.7; }
+  .table-wrap { overflow-x: auto; margin: 12px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 12px; }
+  th { background: #2d2d30; color: #9cdcfe; padding: 8px 10px; text-align: left; border: 1px solid #3e3e42; }
+  td { padding: 7px 10px; border: 1px solid #3e3e42; color: #d4d4d4; vertical-align: top; }
+  tr:nth-child(even) td { background: #2a2a2a; }
+  .highlight { color: #4ec9b0; }
+  .yellow { color: #dcdcaa; }
+  .blue { color: #9cdcfe; }
+  .green { color: #4ec9b0; }
+  .orange { color: #ce9178; }
+  .gray { color: #858585; }
+  .divider { border: none; border-top: 1px solid #3e3e42; }
+  .tag { display: inline-block; background: #0e4a72; color: #9cdcfe; font-size: 11px; border-radius: 4px; padding: 2px 8px; margin: 2px 2px 8px 0; font-family: monospace; }
+  .skill-card { background: #1e1e1e; border: 1px solid #3e3e42; border-radius: 6px; padding: 12px; margin: 8px 0; }
+  .skill-title { color: #dcdcaa; font-weight: 700; font-size: 13px; margin-bottom: 6px; }
+  .skill-meta { font-size: 12px; color: #858585; line-height: 1.7; }
+  .skill-meta b { color: #9cdcfe; }
+  .new-badge { background: #1a3a1a; border: 1px solid #2a6a2a; color: #4ec9b0; font-size: 10px; border-radius: 4px; padding: 1px 6px; margin-left: 6px; }
+  .caption { margin-top: 24px; font-size: 12px; color: #858585; text-align: center; max-width: 700px; }
+</style>
+</head>
+<body>
+<div class="badge">AI Showcase · Prompt #4 of 5</div>
+<div class="window">
+  <div class="titlebar">
+    <div class="dot red"></div>
+    <div class="dot yellow"></div>
+    <div class="dot green"></div>
+    <div class="title">Cursor — clawfriend-biz — Claude Sonnet</div>
+  </div>
+  <div class="chat">
+
+    <!-- User message -->
+    <div class="msg">
+      <div class="avatar user">J</div>
+      <div class="bubble">
+        <div class="name"><span>You</span> · Feb 26, 2026</div>
+        <div class="text">
+          <div class="tag">@skill-research.md</div><br>
+          Here are the most useful and trending OpenClaw / ClawHub skills based on downloads and categories (sourced from clawhub.io Feb 2026):<br><br>
+          <div class="table-wrap">
+            <table>
+              <tr><th>#</th><th>Skill</th><th>Downloads</th><th>Category</th></tr>
+              <tr><td>1</td><td>Browser Use</td><td>~25K</td><td>Web automation</td></tr>
+              <tr><td>2</td><td>Computer Use</td><td>~22K</td><td>Desktop control</td></tr>
+              <tr><td>3</td><td>Filesystem</td><td>~18K</td><td>File ops</td></tr>
+              <tr><td>4</td><td>Memory</td><td>~15K</td><td>Persistence</td></tr>
+              <tr><td>5</td><td>Fetch</td><td>~12K</td><td>Web data</td></tr>
+              <tr><td>6</td><td>Sequential Thinking</td><td>~10K</td><td>Reasoning</td></tr>
+              <tr><td>7</td><td>Time</td><td>~8K</td><td>Scheduling</td></tr>
+              <tr><td>8</td><td>Brave Search</td><td>~7K</td><td>Search</td></tr>
+              <tr><td>9</td><td>BNB Whale Tracker</td><td>ClawFriend-exclusive</td><td>Crypto / DeFi</td></tr>
+              <tr><td>10</td><td>Share Price Monitor</td><td>ClawFriend-exclusive</td><td>Platform-native</td></tr>
+            </table>
+          </div>
+          Try to update this in <code>@skill-research.md</code> — with target user, problem solved, alternative, demand evidence, monetization visibility for each skill. Include the ClawFriend-exclusive skills (#9, #10) as creative additions.
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- AI response -->
+    <div class="msg">
+      <div class="avatar ai">C</div>
+      <div class="bubble">
+        <div class="name"><span>Claude</span> · Sonnet 4.6</div>
+        <div class="text">
+          <p>Updating <code>skill-research.md</code> with all 10 skills…</p><br>
+          <p>Preview of the two <strong class="highlight">ClawFriend-exclusive</strong> creative additions:</p>
+
+          <div class="skill-card">
+            <div class="skill-title">#9 — BNB Whale Tracker <span class="new-badge">ClawFriend-exclusive</span></div>
+            <div class="skill-meta">
+              <b>Target user:</b> DeFi traders and BNB ecosystem participants<br>
+              <b>Problem:</b> Large wallet movements on BNB Chain often precede price swings, but monitoring tools (Whale Alert, 1.2M followers) are generic and off-chain<br>
+              <b>Alternative:</b> Whale Alert (Twitter only, no on-chain action); DeBank (manual)<br>
+              <b>Demand evidence:</b> Whale Alert has 1.2M Twitter followers → proven interest; BNB Chain 4.32M daily active wallets = large addressable user base<br>
+              <b>ClawFriend edge:</b> Skill runs inside an agent that can <em>act</em> — alert + auto-execute a trade or send notification — not just observe<br>
+              <b>Monetization:</b> High-intent users; potential per-alert subscription model via agent shares
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-title">#10 — Share Price Monitor <span class="new-badge">ClawFriend-exclusive</span></div>
+            <div class="skill-meta">
+              <b>Target user:</b> Agent owners and share traders on ClawFriend<br>
+              <b>Problem:</b> No native way to track agent share price movement, set alerts, or trigger actions when a share hits a target price<br>
+              <b>Alternative:</b> Manual checking on platform; no direct equivalent exists<br>
+              <b>Demand evidence:</b> Platform-native skill — every share trader is a potential user; Virtuals $470M aGDP proves willingness to trade agent assets<br>
+              <b>ClawFriend edge:</b> Creates a feedback loop — share price drives skill demand, skill demand drives share price (flywheel)<br>
+              <b>Monetization:</b> Could charge per alert or per action triggered; high retention (users want ongoing monitoring)
+            </div>
+          </div>
+
+          <p>All 10 skills written with full sections. Data sourced from ClawHub (skills 1–8) and participant reasoning (skills 9–10).</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<p class="caption">Prompt 4: Skill research — participant provided ClawHub download data for top 8 skills; skills #9 and #10 are original creative additions (BNB Whale Tracker + Share Price Monitor). AI wrote the structured deliverable sections.</p>
+</body>
+</html>

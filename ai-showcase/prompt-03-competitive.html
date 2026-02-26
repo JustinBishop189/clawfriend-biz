@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Prompt #3 — Competitive Landscape</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #1e1e1e; font-family: 'Segoe UI', system-ui, sans-serif; color: #d4d4d4; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 32px 16px; }
+  .badge { background: #252526; border: 1px solid #3e3e42; border-radius: 6px; padding: 4px 12px; font-size: 11px; color: #858585; margin-bottom: 24px; letter-spacing: 0.5px; text-transform: uppercase; }
+  .window { width: 100%; max-width: 860px; background: #252526; border: 1px solid #3e3e42; border-radius: 10px; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,0.5); }
+  .titlebar { background: #2d2d30; padding: 10px 16px; display: flex; align-items: center; gap: 8px; border-bottom: 1px solid #3e3e42; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot.red { background: #ff5f57; }
+  .dot.yellow { background: #febc2e; }
+  .dot.green { background: #28c840; }
+  .title { flex: 1; text-align: center; font-size: 12px; color: #858585; }
+  .chat { padding: 24px 20px; display: flex; flex-direction: column; gap: 20px; }
+  .msg { display: flex; gap: 12px; }
+  .avatar { width: 32px; height: 32px; border-radius: 50%; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; }
+  .avatar.user { background: #0e639c; color: #fff; }
+  .avatar.ai { background: #d97706; color: #fff; }
+  .bubble { flex: 1; }
+  .name { font-size: 12px; color: #858585; margin-bottom: 6px; }
+  .name span { color: #d4d4d4; font-weight: 600; }
+  .text { font-size: 14px; line-height: 1.6; color: #d4d4d4; }
+  .text code { background: #1e1e1e; border: 1px solid #3e3e42; border-radius: 4px; padding: 1px 6px; font-family: 'Cascadia Code', monospace; font-size: 13px; color: #9cdcfe; }
+  .text pre { background: #1e1e1e; border: 1px solid #3e3e42; border-radius: 6px; padding: 14px; margin: 10px 0; overflow-x: auto; font-family: 'Cascadia Code', monospace; font-size: 12px; line-height: 1.6; }
+  .table-wrap { overflow-x: auto; margin: 12px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 12px; }
+  th { background: #2d2d30; color: #9cdcfe; padding: 8px 10px; text-align: left; border: 1px solid #3e3e42; }
+  td { padding: 7px 10px; border: 1px solid #3e3e42; color: #d4d4d4; vertical-align: top; }
+  tr:nth-child(even) td { background: #2a2a2a; }
+  .highlight { color: #4ec9b0; }
+  .yellow { color: #dcdcaa; }
+  .blue { color: #9cdcfe; }
+  .green { color: #4ec9b0; }
+  .gray { color: #858585; }
+  .divider { border: none; border-top: 1px solid #3e3e42; }
+  .tag { display: inline-block; background: #0e4a72; color: #9cdcfe; font-size: 11px; border-radius: 4px; padding: 2px 8px; margin: 2px 2px 8px 0; font-family: monospace; }
+  .source-pill { display: inline-block; background: #1a1a2e; border: 1px solid #3e3e5e; color: #7ca0d4; font-size: 10px; border-radius: 10px; padding: 1px 8px; margin-left: 6px; font-family: monospace; }
+  .caption { margin-top: 24px; font-size: 12px; color: #858585; text-align: center; max-width: 700px; }
+</style>
+</head>
+<body>
+<div class="badge">AI Showcase · Prompt #3 of 5</div>
+<div class="window">
+  <div class="titlebar">
+    <div class="dot red"></div>
+    <div class="dot yellow"></div>
+    <div class="dot green"></div>
+    <div class="title">Cursor — clawfriend-biz — Claude Sonnet</div>
+  </div>
+  <div class="chat">
+
+    <!-- User message -->
+    <div class="msg">
+      <div class="avatar user">J</div>
+      <div class="bubble">
+        <div class="name"><span>You</span> · Feb 26, 2026</div>
+        <div class="text">
+          <div class="tag">@competitive-landscape.md</div><br>
+          Here are 8 platforms closely related to ClawFriend — including ClawHub (most direct competitor, 1.5M downloads, 10,700 skills, has malicious skills problem), Fetch.ai (3M agents, $60M funding), Virtuals Protocol (~18K agents, $470M aGDP), Clanker ($2.7B+ volume, 200K tokens), Talus, Kite AI, Clawnch, and Bankr. With this comparison table:<br><br>
+          <div class="table-wrap">
+            <table>
+              <tr><th>Platform</th><th>Chain</th><th>Agent/Skill Count</th><th>Key Differentiator</th></tr>
+              <tr><td>ClawHub</td><td>Off-chain</td><td>10,700+ skills</td><td>OpenClaw marketplace; no token-gating; security gap</td></tr>
+              <tr><td>Fetch.ai</td><td>Cosmos</td><td>3M agents</td><td>Enterprise focus, DeltaV search, $60M raised</td></tr>
+              <tr><td>Virtuals</td><td>Base</td><td>~18K agents</td><td>Tokenized agents, $470M aGDP</td></tr>
+              <tr><td>Clanker</td><td>Base</td><td>200K+ tokens</td><td>Token launcher, $2.7B+ vol</td></tr>
+              <tr><td>Talus</td><td>Move VM</td><td>Early</td><td>On-chain agent memory</td></tr>
+            </table>
+          </div>
+          Update this in <code>competitive-landscape.md</code> — full competitor list, per-competitor analysis, head-to-head table, strategic insight, conclusion, and data sources.
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- AI response -->
+    <div class="msg">
+      <div class="avatar ai">C</div>
+      <div class="bubble">
+        <div class="name"><span>Claude</span> · Sonnet 4.6</div>
+        <div class="text">
+          <p>Updating <code>competitive-landscape.md</code> with full analysis of all 8 competitors…</p><br>
+          <p>Here's a preview of the <strong class="highlight">Strategic Insight</strong> section:</p>
+          <pre><span class="yellow">## Strategic Insight</span>
+
+The competitive landscape reveals a clear opportunity gap:
+
+<span class="green">ClawHub</span> (most direct): 1.5M downloads proves demand for OpenClaw tools,
+but it is off-chain, un-tokenized, and has a security problem (1,184 malicious
+skills found Feb 2026). <span class="blue">ClawFriend adds the economic layer ClawHub lacks.</span>
+
+<span class="green">Virtuals / Clanker</span>: Prove that agent tokenization and token-launch primitives
+work at scale ($470M aGDP, $2.7B volume). Both are Base-native — BNB is
+underserved in this vertical.
+
+<span class="green">Fetch.ai</span>: Enterprise-grade, complex UX. ClawFriend targets consumer/builder
+segment that Fetch.ai ignores.
+
+<span class="yellow">ClawFriend's moat</span> = OpenClaw skill composability + BNB liquidity + bonding-
+curve shares → a flywheel no single competitor has end-to-end.</pre>
+          <p>Full file written. 8 competitor sections, head-to-head table, data sources with URLs all included.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<p class="caption">Prompt 3: Competitive landscape — participant supplied the 8-platform table with all metrics (sourced from ClawHub, Virtuals.io, CoinMarketCap, Fetch.ai). AI structured the full analysis section. Numbers were verified before submitting.</p>
+</body>
+</html>
