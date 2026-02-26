@@ -13,7 +13,7 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 | **25%** | [Competitive Landscape](./competitive-landscape.md) | [x] | 8 competitors (incl. ClawHub #1, Fetch.ai #2); verified numbers; updated table & positioning |
 | **25%** | [Skill Research](./skill-research.md) | [x] | 10 skills (added BNB Whale Tracker + Share Price Monitor); strengthened demand evidence |
 | **40%** | [Distribution Plan](./distribution-plan.md) | [x] | 6 channels; realistic CPC ($1.50–2.00); cold start plan; activation plan (D0–D7); unit economics |
-| **10%** | Presentation & Q&A | [ ] | 15–20 min present + Q&A with judges |
+| **10%** | Presentation & Q&A | [-] | [Presentation link](https://gemini.google.com/share/73d4230afa90) — 15–20 min present + Q&A with judges |
 
 ---
 
@@ -69,8 +69,8 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 
 - [ ] [AI Showcase](./ai-showcase/): screenshots or links of AI prompts used for research
 - [x] [Data](./data/data.md): sourced numbers with primary source URLs and retrieval dates
-- [ ] [README](./README.md): add Gemini Canvas presentation link when ready
-- [ ] Web presentation built (Gemini Canvas; no PowerPoint/Google Slides)
+- [x] [README](./README.md): add Gemini Canvas presentation link when ready
+- [x] Web presentation built (Gemini Canvas; no PowerPoint/Google Slides) — [link](https://gemini.google.com/share/73d4230afa90)
 - [ ] Repo public; link shared in Telegram
 - [x] All deliverable files pushed to GitHub (commit 7636905)
 
@@ -89,7 +89,7 @@ Track completion for each deliverable and timeline step. Update checkboxes as yo
 ## Pre-presentation checklist
 
 - [ ] GitHub repo public; link sent to Telegram group
-- [ ] Web presentation (Gemini Canvas) link in README.md
+- [x] Web presentation (Gemini Canvas) link in README.md — [link](https://gemini.google.com/share/73d4230afa90)
 - [x] Competitive Landscape: 8 competitors (incl. ClawHub + Fetch.ai), verified data, analysis, conclusion
 - [x] Skill Research: 10 skills, each with target user, problem, alternative, pricing, demand evidence
 - [x] Distribution Plan: 6 channels, realistic CPC, cold start plan, activation plan, unit economics
