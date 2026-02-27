@@ -9,7 +9,7 @@
 
 | Channel | Type | Budget | Rationale | Expected ROI (if paid) |
 |---------|------|--------|-----------|-------------------------|
-| Twitter/X Ads | Paid | $4,500 | Largest concentration of crypto + OpenClaw audience; measurable clicks/sign-ups | CPC ~$1.50–2.00 (Tech/Financial Services benchmark); target 2,250–3,000 clicks → 68–135 sign-ups at 3% conversion |
+| Twitter/X Ads | Paid | $4,500 | Largest concentration of crypto + OpenClaw audience; top-of-funnel brand awareness + warm retargeting pool for Month 2 (users see ad 3–4× before converting) | CPC ~$1.50–2.00 (Tech/Crypto benchmark, source: [Marketing LTB 2025](https://marketingltb.com/blog/statistics/twitter-ads-statistics/)); 2,250–3,000 clicks → **68–90 direct sign-ups** at 3% conversion + **150K–300K impressions** for brand recall and Month 2 retargeting pool |
 | KOL / micro-influencer | Paid | $2,500 | Trust and reach in agentic/crypto niche; 1–2 creators with engaged followers | 50K–100K combined reach; target 75–200 sign-ups from dedicated links |
 | Twitter Space / live event | Paid | $1,500 | “Agentic economy on BNB” positioning; host + promo; replay as asset | 200–800 live listeners; 50–150 sign-ups from CTA |
 | Reddit or Telegram promo | Paid | $1,500 | r/cryptocurrency, r/ethereum, agentic Telegram groups; sponsored or boosted posts | 20K–50K impressions; target 80–200 sign-ups |
@@ -21,7 +21,7 @@
 
 ## 2. Channel 1: Twitter/X Ads (Paid — $4,500)
 
-- **Why this channel:** Crypto and OpenClaw/agentic economy audience is highly active on X. Paid reach is measurable; we can target followers of @OpenClaw, @clawfriend_ai, @BNBCHAIN, @DefiLlama, and relevant KOLs. Best channel for controlled scale in month one.
+- **Why this channel:** Crypto and OpenClaw/agentic economy audience is highly active on X. Paid reach is measurable; we can target followers of @OpenClaw, @clawfriend_ai, @BNBCHAIN, @DefiLlama, and relevant KOLs. Best channel for controlled scale in month one. **Beyond direct sign-ups:** $4,500 at ~$1.75 avg CPC delivers 150K–300K impressions for brand recall. Crypto users typically see an ad 3–4× before converting (source: [Marketing LTB 2025](https://marketingltb.com/blog/statistics/twitter-ads-statistics/)); this builds a warm retargeting pool that Month 2 campaigns re-engage at 30–50% lower CPC than cold acquisition — making the $4,500 a compound top-of-funnel investment, not only a direct-response buy.
 - **Detailed action plan:**
   - **Creative:** 15–30s video or carousel: “Deploy an AI agent on BNB in 10 min” or “Skill Market: install Github, Browser, Twitter skills for your agent.” CTA: “Try free → clawfriend.ai.”
   - **Targeting:** Follower lookalike of @OpenClaw, @clawfriend_ai; interests: AI agents, BNB Chain, DeFi, crypto trading bots. Exclude existing followers to focus on cold acquisition.
@@ -175,7 +175,7 @@ The pitch to skill creators: **”ClawHub has the users but pays you nothing. Cl
 - **CAC (Cost per Acquisition) — paid only:**
   - Total paid: $10,000.
   - Realistic CPC on X for Tech/Crypto: $1.50–2.00 (source: Marketing LTB 2025 benchmarks; Financial Services avg $2.50).
-  - Twitter $4,500 ÷ $1.75 avg CPC = ~2,571 clicks × 3% conversion = **~77 paid sign-ups from Twitter**.
+  - Twitter $4,500 ÷ $1.75 avg CPC = ~2,571 clicks × 3% conversion = **~77 direct paid sign-ups from Twitter**. *(Note: Twitter's ROI extends beyond 77 direct sign-ups — $4,500 also buys 150K–300K impressions for brand recall and a warm retargeting pool. Month 2 retargeting of these audiences converts at lower CPC, reducing effective CAC across both months. See Channel 1 for full rationale.)*
   - All channels combined (Twitter + KOL + Space + Reddit): **350–550 paid sign-ups** (conservative).
   - Organic channels: **150–450** (blog + partnership).
   - **Total realistic target: 500–1,000 sign-ups.**

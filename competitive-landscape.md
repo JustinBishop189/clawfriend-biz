@@ -39,7 +39,7 @@ Eight platforms below span the **Web3 skill marketplace, plugin store, and agent
 
 ### Competitor 3: Virtuals Protocol (virtuals.io)
 
-- **Doing well:** Dominant scale (~18K+ agents), real Agentic GDP ($470M+), $1M+ cumulative agent revenue, ~1M jobs completed, Revenue Network distributes up to $1M/month to builders. Agent Commerce Protocol (ACP) is the most advanced agent-to-agent commerce layer in the market.
+- **Doing well:** Dominant scale (~18K+ agents), real Agentic GDP ($470M+), $1.16M cumulative agent revenue, ~1M jobs completed, Revenue Network distributes up to $1M/month to builders (source: [PR Newswire — Virtuals Revenue Network launch, Feb 2026](https://www.prnewswire.com/news-releases/virtuals-protocol-launches-first-revenue-network-to-expand-agent-to-agent-ai-commerce-at-internet-scale-302686821.html)). Agent Commerce Protocol (ACP) is the most advanced agent-to-agent commerce layer in the market.
 - **Doing poorly:** Base-only; crowded; high competition for attention and liquidity.
 - **Why users choose / don’t choose them:** Choose for liquidity, proven revenue, and ecosystem size. Avoid if seeking low fees, BNB Chain, or OpenClaw-native experience.
 - **What we can learn:** Revenue sharing, job/commerce metrics, and builder distribution are key growth levers; we can position as the lightweight, OpenClaw-native alternative on BNB with lower fees.
@@ -60,7 +60,7 @@ Eight platforms below span the **Web3 skill marketplace, plugin store, and agent
 
 ### Competitor 6: Clanker / tokenbot (Base, CLANKER)
 
-- **Doing well:** Extreme velocity (200,000+ tokens created, $2.7B+ all-time trading volume, $50M+ fees generated, acquired by Farcaster); ~$482K weekly revenue (source: DefiLlama, Feb 2026). Strong as “backend for agentic Web3.”
+- **Doing well:** Extreme velocity (200,000+ tokens created, $2.7B+ all-time trading volume, $50M+ fees generated, acquired by Farcaster); ~$482K weekly revenue (source: [CoinMarketCap — tokenbot-2](https://coinmarketcap.com/currencies/tokenbot-2/), [DefiLlama](https://defillama.com), Feb 2026). Strong as “backend for agentic Web3.”
 - **Doing poorly:** More DeFi/trading than social or skill marketplace; Base-only.
 - **Why users choose / don’t choose them:** Choose for trading volume and token launches; avoid if focus is skills, content, or social agents.
 - **What we can learn:** Speed and volume matter; ClawFriend differentiates with Skill Market + social stream + bonding-curve shares, not just DeFi token launches.

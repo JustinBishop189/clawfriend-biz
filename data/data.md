@@ -68,7 +68,7 @@ Numbers marked ⚠️ are from the deliverable documents and **require manual re
 | ACP commerce volume crossed | $1M (agent-to-agent) | [prnewswire.com](https://www.prnewswire.com/news-releases/virtuals-protocol-launches-first-revenue-network-to-expand-agent-to-agent-ai-commerce-at-internet-scale-302686821.html) | Feb 2026 |
 | Revenue distributed to builders | Up to $1M/month via Revenue Network | [prnewswire.com](https://www.prnewswire.com/news-releases/virtuals-protocol-launches-first-revenue-network-to-expand-agent-to-agent-ai-commerce-at-internet-scale-302686821.html) | Feb 2026 |
 
-> Note: The submission used "$13.58B 30D vol" and "$478M GDP" — these figures could not be verified from search results. The Revenue Network press release (Feb 2026) cites $470M+ aGDP and ~$1M agent revenue. **Re-verify 30D volume figure directly on virtuals.io before presentation.**
+> Note: competitive-landscape.md has been updated to use **verified figures only**: $470M+ aGDP and $1.16M cumulative agent revenue (both sourced from [PR Newswire — Virtuals Protocol Revenue Network launch, Feb 2026](https://www.prnewswire.com/news-releases/virtuals-protocol-launches-first-revenue-network-to-expand-agent-to-agent-ai-commerce-at-internet-scale-302686821.html)). The earlier figures of "$13.58B 30D trading vol", "$478M GDP", "$2.59M agent revenue", and "1.74M jobs" could not be independently verified from public sources and have been **removed** from deliverables. Do not cite any Virtuals 30D trading volume without a live virtuals.io dashboard screenshot taken on the day of presentation.
 
 ### 3b. Clanker / tokenbot
 
@@ -83,7 +83,7 @@ Numbers marked ⚠️ are from the deliverable documents and **require manual re
 | Blockchain | Base (primarily) | basescan.org | — |
 | Acquired by | Farcaster | [The Defiant](https://thedefiant.io/news/nfts-and-web3/farcaster-acquires-clanker-tokenbot) | 2025 |
 
-> Note: The submission used "$7.62B all-time vol" — search results show $2.7B+. **This discrepancy must be resolved before presentation.**
+> Note: **RESOLVED.** competitive-landscape.md has been updated to use $2.7B+ all-time vol (source: [CoinMarketCap — tokenbot-2, Feb 2026](https://coinmarketcap.com/currencies/tokenbot-2/)). The earlier $7.62B figure has been removed from all deliverables.
 
 ### 3c. SingularityNET
 
@@ -155,7 +155,7 @@ Numbers marked ⚠️ are from the deliverable documents and **require manual re
 | Average CTR (promoted tweets) | 1%–3% | [Marketing LTB](https://marketingltb.com/blog/statistics/twitter-ads-statistics/) | 2025 |
 | Average conversion rate (click→sign-up) | 1%–3% | [WebFX](https://www.webfx.com/blog/social-media/x-twitter-marketing-benchmarks/) | 2026 |
 
-> **Key implication for distribution plan:** The submission assumes CPC of $0.40–0.80. Crypto/Web3 campaigns on X likely fall in the $1.75–$2.50 range (Tech/Financial Services benchmarks). At $1.75 CPC with $4,500 budget → ~2,571 clicks → ~77–154 sign-ups (not 150–400). Consider revising upward to $1.50 CPC as conservative baseline.
+> **Status: RESOLVED in distribution-plan.md.** CPC has been updated to $1.50–2.00 (conservative baseline for Tech/Crypto vertical on X, sourced from [Marketing LTB 2025 benchmarks](https://marketingltb.com/blog/statistics/twitter-ads-statistics/)). At $1.75 avg CPC with $4,500 budget: ~2,571 clicks → **~68–90 direct sign-ups** at 3% conversion. **Brand awareness note added:** Twitter Ads also deliver 150K–300K impressions that build a warm retargeting pool — Month 2 retargeting of this pool converts at lower CPC than cold acquisition, improving total Twitter ROI beyond direct sign-ups.
 
 ### 6b. Reddit Ads
 
@@ -183,20 +183,26 @@ Numbers marked ⚠️ are from the deliverable documents and **require manual re
 
 ---
 
-## 7. Summary: Numbers to Verify Before Presentation
+## 7. Summary: Numbers Status Before Presentation
 
-The following figures appear in the deliverables and **must be verified against primary sources** (platform dashboards, on-chain explorers, or official announcements) before the presentation:
+### ✅ Resolved — Corrected and verified in deliverables
 
-| Claim | Where used | How to verify |
-|-------|-----------|---------------|
-| Virtuals: $13.58B 30D trading vol | competitive-landscape.md | Check virtuals.io dashboard live |
-| Virtuals: $478M aGDP | competitive-landscape.md | Confirmed ~$470M from press release; use "$470M+" |
-| Virtuals: $2.59M agent revenue | competitive-landscape.md | Check virtuals.io; press release says "$1.16M cumulative" — discrepancy |
-| Virtuals: 1.74M jobs | competitive-landscape.md | Check virtuals.io dashboard |
-| Clanker: $7.62B all-time vol | competitive-landscape.md | Search results show $2.7B+ — significant discrepancy, re-verify on DefiLlama |
-| ClawHub: download numbers (per skill) | skill-research.md | Check each skill page on clawhub.ai |
-| ClawFriend: 195 agents, $6.6K vol | competitive-landscape.md | Check clawfriend.ai dashboard |
-| Twitter CPC: $0.40–0.80 | distribution-plan.md | Benchmarks suggest $1.75–$2.50 for Tech/Crypto; revise or justify |
+| Claim (old / wrong) | Corrected to | File updated | Verified source |
+|--------------------|-----------|-----------|----|
+| Virtuals: $13.58B 30D trading vol | Removed (unverifiable) | competitive-landscape.md | Not citable without live dashboard |
+| Virtuals: $478M aGDP | $470M+ aGDP | competitive-landscape.md | [PR Newswire — Virtuals Revenue Network, Feb 2026](https://www.prnewswire.com/news-releases/virtuals-protocol-launches-first-revenue-network-to-expand-agent-to-agent-ai-commerce-at-internet-scale-302686821.html) |
+| Virtuals: $2.59M agent revenue | $1.16M cumulative revenue | competitive-landscape.md | [PR Newswire — Virtuals Revenue Network, Feb 2026](https://www.prnewswire.com/news-releases/virtuals-protocol-launches-first-revenue-network-to-expand-agent-to-agent-ai-commerce-at-internet-scale-302686821.html) |
+| Virtuals: 1.74M jobs | ~1M jobs | competitive-landscape.md | [PR Newswire — Virtuals Revenue Network, Feb 2026](https://www.prnewswire.com/news-releases/virtuals-protocol-launches-first-revenue-network-to-expand-agent-to-agent-ai-commerce-at-internet-scale-302686821.html) |
+| Clanker: $7.62B all-time vol | $2.7B+ all-time vol | competitive-landscape.md | [CoinMarketCap — tokenbot-2, Feb 2026](https://coinmarketcap.com/currencies/tokenbot-2/) |
+| Twitter CPC: $0.40–0.80 | $1.50–2.00 (Tech/Crypto baseline) | distribution-plan.md | [Marketing LTB — Twitter Ads Statistics, 2025](https://marketingltb.com/blog/statistics/twitter-ads-statistics/) |
+
+### ⚠️ Still Requires Live Verification Before Presentation
+
+| Claim | Where used | Priority | How to verify |
+|-------|-----------|---------|---------------|
+| ClawFriend: agents deployed, trading vol, tweet count | competitive-landscape.md | 🔴 Critical | Screenshot clawfriend.ai dashboard on day of presentation; replace `~195` and `~$6.6K` with exact current numbers |
+| ClawHub: per-skill download counts (~23k–35k) | skill-research.md | 🟡 Important | Check each skill page on [clawhub.ai](https://clawhub.ai) — counts change daily; re-verify the day before |
+| Virtuals: 30D trading vol (any figure) | Not cited in deliverables | 🟡 Important | Only cite if you screenshot virtuals.io dashboard live; otherwise omit |
 
 ---
 

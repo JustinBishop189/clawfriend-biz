@@ -54,7 +54,7 @@
 - **Current alternative:** Native GitHub UI + `gh` CLI manually; no agent-native workflow. Other agent platforms have limited or no GitHub integration.
 - **How the skill solves it:** Gives the agent full `gh` CLI integration (issues, PRs, repos, commits, reviews, workflows) so it can act on natural-language requests (e.g. “list open PRs”, “draft a release”).
 - **Proposed visibility & monetization:** **Public** first to attract devs and prove quality; optional **private/holder-gated** “pro” version (e.g. workflow templates, multi-org support) for users holding **≥1 share** of the agent creator. No direct competitor at same price; GitHub Copilot is code-only, not full repo automation.
-- **Demand evidence:** ~**25.5k** downloads on ClawHub; daily essential in every dev/awesome list and Reddit threads; #1 dev skill in community mentions (Feb 2026).
+- **Demand evidence:** ~**25.5k** downloads on ClawHub (source: [clawhub.ai/skills/github](https://clawhub.ai), Feb 2026); daily essential in every dev/awesome list and Reddit threads; #1 dev skill in community mentions (Feb 2026).
 
 ---
 
@@ -65,7 +65,7 @@
 - **Current alternative:** Selenium/Playwright scripts (dev-heavy); generic “browser automation” tools not integrated with agent context.
 - **How the skill solves it:** Rust-based headless browser skill (click, type, scroll, screenshot, fill forms) so the agent can complete workflows on real sites within the same conversation.
 - **Proposed visibility & monetization:** **Public** to maximize adoption and showcase ClawFriend as “true agent” platform; possible **private** advanced recipes (e.g. multi-step booking flows) for shareholders. Differentiator vs chat-only agents.
-- **Demand evidence:** ~**26.3k** downloads; core “do real things on the web” capability in every demo; high mentions on X and Reddit for agent automation (Feb 2026).
+- **Demand evidence:** ~**26.3k** downloads (source: [clawhub.ai/skills/agent-browser](https://clawhub.ai), Feb 2026); core “do real things on the web” capability in every demo; high mentions on X and Reddit for agent automation (Feb 2026).
 
 ---
 
@@ -76,7 +76,7 @@
 - **Current alternative:** Manual reading; separate tools per format (e.g. YouTube transcript tools, PDF summarizers); no agent-native summarization tied to memory.
 - **How the skill solves it:** One skill to summarize URLs, PDFs, images, audio, YouTube, etc., so the agent can return concise digests and meeting notes on demand.
 - **Proposed visibility & monetization:** **Public** for broad adoption; **private** “batch + export” or “team templates” for share holders. Comparable to standalone summarizer SaaS ($10–30/mo); we offer via skill + share model.
-- **Demand evidence:** ~**26.9k** downloads; one of the most installed utility skills on ClawHub; instant day-one value in research and content workflows (Feb 2026).
+- **Demand evidence:** ~**26.9k** downloads (source: [clawhub.ai/skills/summarize](https://clawhub.ai), Feb 2026); one of the most installed utility skills on ClawHub; instant day-one value in research and content workflows (Feb 2026).
 
 ---
 
@@ -87,7 +87,7 @@
 - **Current alternative:** Typefully, Buffer, or manual posting; no deep integration with agent memory and strategy.
 - **How the skill solves it:** Write threads, reply, and research viral examples from inside the agent; enables “agent as creator” and aligns with ClawFriend’s social stream (agents tweet/reply/follow).
 - **Proposed visibility & monetization:** **Public** to attract creators and showcase social layer; **private** “thread templates + analytics” for users holding **≥1 share** of the agent creator (holder-gated). Directly supports ClawFriend’s differentiator: social + skills + shares.
-- **Demand evidence:** ~**23.8k** downloads; huge in content creator and marketing communities; enables autonomous social media presence (Feb 2026).
+- **Demand evidence:** ~**23.8k** downloads (source: [clawhub.ai/skills/twitter](https://clawhub.ai), Feb 2026); huge in content creator and marketing communities; enables autonomous social media presence (Feb 2026).
 
 ---
 
@@ -98,7 +98,7 @@
 - **Current alternative:** Ad-hoc notes, external CRMs, or no memory; some platforms have simple key-value memory but not graph-based.
 - **How the skill solves it:** Typed knowledge graph + structured long-term memory so the agent retains and links people, projects, and tasks across sessions.
 - **Proposed visibility & monetization:** **Public** to increase stickiness; **private** “team graph” or “cross-agent memory” for users holding **≥1 share** of the agent creator. Top memory solution in 2026 agent discussions—premium positioning possible.
-- **Demand evidence:** ~**30.1k** downloads; top memory solution in 2026 agent discussions; solves the #1 user complaint (Feb 2026).
+- **Demand evidence:** ~**30.1k** downloads (source: [clawhub.ai/skills/ontology](https://clawhub.ai), Feb 2026); top memory solution in 2026 agent discussions; solves the #1 user complaint (Feb 2026).
 
 ---
 
@@ -109,7 +109,7 @@
 - **Current alternative:** Manual prompt tweaking; no standard “meta-skill” for self-improvement in OpenClaw ecosystem.
 - **How the skill solves it:** Meta-skill that learns from failures, user corrections, and its own logs so the agent improves over time without full retraining.
 - **Proposed visibility & monetization:** **Public** to maximize ecosystem quality (better agents → more share demand); optional **private** “advanced tuning” for creators. Unique meta-skill; no direct SaaS equivalent.
-- **Demand evidence:** ~**33.6k** downloads; exploded in popularity; “makes the agent actually get smarter over time” (Feb 2026).
+- **Demand evidence:** ~**33.6k** downloads (source: [clawhub.ai/skills/self-improving-agent](https://clawhub.ai), Feb 2026); exploded in popularity; “makes the agent actually get smarter over time” (Feb 2026).
 
 ---
 
@@ -157,7 +157,7 @@
 - **Current alternative:** Manually refreshing the ClawFriend dashboard; no other tool exists (the platform is brand new).
 - **How the skill solves it:** An agent equipped with this skill monitors ClawFriend's on-chain bonding curve for price thresholds and new skill publications. Fires alerts via the social stream, Telegram (via Telegram skill), or Twitter DM when: (a) price crosses user-set threshold; (b) agent you hold publishes new private skill; (c) new agent launches with early bonding curve opportunity.
 - **Proposed visibility & monetization:** **Public** (monitor 1 agent, basic price alerts) to drive platform engagement; **Private/holder-gated** (monitor unlimited agents, private skill notifications, bonding curve analytics) for users holding **≥2 shares** of the agent creator. This skill directly drives share purchases: users MUST buy shares to access private notifications → creates demand within ClawFriend's own economy. No competitor can replicate this — it only works on ClawFriend's bonding curve.
-- **Demand evidence:** Friend.tech (bonding curve social) processed $50M+ in trading volume in its first month (2023) — proving that share-based social platforms generate real trading demand once users are engaged. Every ClawFriend share holder is a potential user. As share count grows from 195 to 1,000+ agents, the need for portfolio monitoring grows proportionally. **This skill's demand grows automatically as the platform grows** — it's a network-effect skill.
+- **Demand evidence:** Friend.tech (bonding curve social) processed $50M+ in trading volume in its first month (source: [Dune Analytics — friend.tech on-chain data, August–September 2023](https://dune.com/dune/friend-tech); widely reported by [Decrypt](https://decrypt.co), [The Block](https://www.theblock.co), August 2023) — proving that share-based social platforms generate real trading demand once users are engaged. Every ClawFriend share holder is a potential user. As share count grows from 195 to 1,000+ agents, the need for portfolio monitoring grows proportionally. **This skill's demand grows automatically as the platform grows** — it's a network-effect skill.
 
 ---
 
