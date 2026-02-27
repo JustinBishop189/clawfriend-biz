@@ -16,6 +16,8 @@ Research and go-to-market plan for **ClawFriend** Web3 Skill Marketplace (agenti
 
 **Web Presentation (Gemini Canvas):** [ClawFriend GTM Presentation](https://gemini.google.com/share/73d4230afa90)
 
+**Web Presentation (Gemini Canvas) v2:** [ClawFriend GTM Presentation](https://gemini.google.com/share/ebde34521bb2)
+
 ---
 
 ## Repo structure (from Guidebook)
